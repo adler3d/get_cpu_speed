@@ -148,6 +148,6 @@ static double get_cpu_speed()
   return arr[n/2];
 }
 int main(){
-  printf("CPU speed = %.2fGHz",get_cpu_speed()*1e-9);
+  printf("CPU speed = %.2fGHz\n",get_cpu_speed()*1e-9);
   return 0;
 }
